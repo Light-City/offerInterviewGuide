@@ -291,3 +291,27 @@ public:
 };
 ```
 
+## 3.[面试题14- II. 剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)
+
+优先把3用完，贪婪法。
+
+```cpp
+class Solution {
+
+public:
+    int cuttingRope(int n) {
+        if(n==2) return 1;
+        if(n==3) return 2;
+
+        long res=1;
+        while(n>4) {
+            res*=3;
+            res=res%1000000007;
+            n-=3;
+        }   
+        return (int)(res*n%1000000007);
+    }
+   
+};
+```
+
