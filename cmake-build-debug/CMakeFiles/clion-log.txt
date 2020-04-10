@@ -1,0 +1,4 @@
+/home/light/CLION/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/light/gcc8.3/bin/gcc -DCMAKE_CXX_COMPILER=/home/light/gcc8.3/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/light/myRoute/offerInterviewGuide
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/light/myRoute/offerInterviewGuide/cmake-build-debug

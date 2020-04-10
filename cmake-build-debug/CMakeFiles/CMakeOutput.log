@@ -1,0 +1,864 @@
+The system is: Linux - 5.0.0-23-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/light/gcc8.3/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/light/gcc8.3/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_65c8b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_65c8b.dir/build.make CMakeFiles/cmTC_65c8b.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_65c8b.dir/testCCompiler.c.o
+/home/light/gcc8.3/bin/gcc    -o CMakeFiles/cmTC_65c8b.dir/testCCompiler.c.o   -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_65c8b
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65c8b.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/gcc      CMakeFiles/cmTC_65c8b.dir/testCCompiler.c.o  -o cmTC_65c8b 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be5c3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_be5c3.dir/build.make CMakeFiles/cmTC_be5c3.dir/build
+make[1]: Entering directory '/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o
+/home/light/gcc8.3/bin/gcc   -v -o CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o   -c /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/light/gcc8.3/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccAOMsB1.s
+GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include
+ /usr/local/include
+ /home/light/gcc8.3/include
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2dbf9d033d94d0127f34a76c8f40caab
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o /tmp/ccAOMsB1.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_be5c3
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be5c3.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/gcc     -v CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o  -o cmTC_be5c3 
+Using built-in specs.
+COLLECT_GCC=/home/light/gcc8.3/bin/gcc
+COLLECT_LTO_WRAPPER=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be5c3' '-mtune=generic' '-march=x86-64'
+ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHPsiJb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_be5c3 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be5c3' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/home/light/gcc8.3/include]
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include] ==> [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/home/light/gcc8.3/include] ==> [/home/light/gcc8.3/include]
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed] ==> [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include;/usr/local/include;/home/light/gcc8.3/include;/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_be5c3/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_be5c3.dir/build.make CMakeFiles/cmTC_be5c3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/light/gcc8.3/bin/gcc   -v -o CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o   -c /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/light/gcc8.3/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccAOMsB1.s]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /home/light/gcc8.3/include]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2dbf9d033d94d0127f34a76c8f40caab]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o /tmp/ccAOMsB1.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_be5c3]
+  ignore line: [/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be5c3.dir/link.txt --verbose=1]
+  ignore line: [/home/light/gcc8.3/bin/gcc     -v CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o  -o cmTC_be5c3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/light/gcc8.3/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be5c3' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHPsiJb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_be5c3 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHPsiJb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_be5c3] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_be5c3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> [/home/light/gcc8.3/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/home/light/gcc8.3/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/home/light/gcc8.3/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/home/light/gcc8.3/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8774c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_8774c.dir/build.make CMakeFiles/cmTC_8774c.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8774c.dir/feature_tests.c.o
+/home/light/gcc8.3/bin/gcc   -std=c11 -o CMakeFiles/cmTC_8774c.dir/feature_tests.c.o   -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8774c
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8774c.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/gcc      CMakeFiles/cmTC_8774c.dir/feature_tests.c.o  -o cmTC_8774c 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12cda/fast 
+/usr/bin/make -f CMakeFiles/cmTC_12cda.dir/build.make CMakeFiles/cmTC_12cda.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_12cda.dir/feature_tests.c.o
+/home/light/gcc8.3/bin/gcc   -std=c99 -o CMakeFiles/cmTC_12cda.dir/feature_tests.c.o   -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_12cda
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12cda.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/gcc      CMakeFiles/cmTC_12cda.dir/feature_tests.c.o  -o cmTC_12cda 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_803e4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_803e4.dir/build.make CMakeFiles/cmTC_803e4.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_803e4.dir/feature_tests.c.o
+/home/light/gcc8.3/bin/gcc   -std=c90 -o CMakeFiles/cmTC_803e4.dir/feature_tests.c.o   -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_803e4
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_803e4.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/gcc      CMakeFiles/cmTC_803e4.dir/feature_tests.c.o  -o cmTC_803e4 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f447e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f447e.dir/build.make CMakeFiles/cmTC_f447e.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f447e.dir/testCXXCompiler.cxx.o
+/home/light/gcc8.3/bin/g++     -o CMakeFiles/cmTC_f447e.dir/testCXXCompiler.cxx.o -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f447e
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f447e.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++       CMakeFiles/cmTC_f447e.dir/testCXXCompiler.cxx.o  -o cmTC_f447e 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4f08/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d4f08.dir/build.make CMakeFiles/cmTC_d4f08.dir/build
+make[1]: Entering directory '/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o
+/home/light/gcc8.3/bin/g++    -v -o CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o -c /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/light/gcc8.3/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccAsTmOB.s
+GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include
+ /usr/local/include
+ /home/light/gcc8.3/include
+ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bd8d4941254e0b9358831189a9af6d3e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAsTmOB.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d4f08
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f08.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++      -v CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d4f08 
+Using built-in specs.
+COLLECT_GCC=/home/light/gcc8.3/bin/g++
+COLLECT_LTO_WRAPPER=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4f08' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5sh89C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d4f08 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4f08' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0]
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu]
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward]
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/home/light/gcc8.3/include]
+    add: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0] ==> [/home/light/gcc8.3/include/c++/8.3.0]
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu] ==> [/home/light/gcc8.3/include/c++/8.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward] ==> [/home/light/gcc8.3/include/c++/8.3.0/backward]
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include] ==> [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/home/light/gcc8.3/include] ==> [/home/light/gcc8.3/include]
+  collapse include dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed] ==> [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/light/gcc8.3/include/c++/8.3.0;/home/light/gcc8.3/include/c++/8.3.0/x86_64-pc-linux-gnu;/home/light/gcc8.3/include/c++/8.3.0/backward;/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include;/usr/local/include;/home/light/gcc8.3/include;/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d4f08/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d4f08.dir/build.make CMakeFiles/cmTC_d4f08.dir/build]
+  ignore line: [make[1]: Entering directory '/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/light/gcc8.3/bin/g++    -v -o CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o -c /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/light/gcc8.3/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/light/CLION/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccAsTmOB.s]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /home/light/gcc8.3/include]
+  ignore line: [ /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bd8d4941254e0b9358831189a9af6d3e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAsTmOB.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d4f08]
+  ignore line: [/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f08.dir/link.txt --verbose=1]
+  ignore line: [/home/light/gcc8.3/bin/g++      -v CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d4f08 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/light/gcc8.3/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/light/gcc8.3/ --enable-shared --enable-threads=posix --enable-languages=c,c++,fortran --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4f08' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5sh89C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d4f08 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/light/gcc8.3/libexec/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5sh89C.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d4f08] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_d4f08.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib64] ==> [/home/light/gcc8.3/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/home/light/gcc8.3/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/home/light/gcc8.3/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/home/light/gcc8.3/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a3bd/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9a3bd.dir/build.make CMakeFiles/cmTC_9a3bd.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9a3bd.dir/feature_tests.cxx.o
+/home/light/gcc8.3/bin/g++    -std=c++2a -o CMakeFiles/cmTC_9a3bd.dir/feature_tests.cxx.o -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9a3bd
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a3bd.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++       CMakeFiles/cmTC_9a3bd.dir/feature_tests.cxx.o  -o cmTC_9a3bd 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9eed9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9eed9.dir/build.make CMakeFiles/cmTC_9eed9.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9eed9.dir/feature_tests.cxx.o
+/home/light/gcc8.3/bin/g++    -std=c++17 -o CMakeFiles/cmTC_9eed9.dir/feature_tests.cxx.o -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9eed9
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eed9.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++       CMakeFiles/cmTC_9eed9.dir/feature_tests.cxx.o  -o cmTC_9eed9 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8cb5c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_8cb5c.dir/build.make CMakeFiles/cmTC_8cb5c.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_8cb5c.dir/feature_tests.cxx.o
+/home/light/gcc8.3/bin/g++    -std=c++14 -o CMakeFiles/cmTC_8cb5c.dir/feature_tests.cxx.o -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8cb5c
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cb5c.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++       CMakeFiles/cmTC_8cb5c.dir/feature_tests.cxx.o  -o cmTC_8cb5c 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57f1e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_57f1e.dir/build.make CMakeFiles/cmTC_57f1e.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_57f1e.dir/feature_tests.cxx.o
+/home/light/gcc8.3/bin/g++    -std=c++11 -o CMakeFiles/cmTC_57f1e.dir/feature_tests.cxx.o -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_57f1e
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f1e.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++       CMakeFiles/cmTC_57f1e.dir/feature_tests.cxx.o  -o cmTC_57f1e 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3daa/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c3daa.dir/build.make CMakeFiles/cmTC_c3daa.dir/build
+make[1]: 进入目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c3daa.dir/feature_tests.cxx.o
+/home/light/gcc8.3/bin/g++    -std=c++98 -o CMakeFiles/cmTC_c3daa.dir/feature_tests.cxx.o -c /home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c3daa
+/home/light/CLION/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3daa.dir/link.txt --verbose=1
+/home/light/gcc8.3/bin/g++       CMakeFiles/cmTC_c3daa.dir/feature_tests.cxx.o  -o cmTC_c3daa 
+make[1]: 离开目录“/home/light/myRoute/offerInterviewGuide/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

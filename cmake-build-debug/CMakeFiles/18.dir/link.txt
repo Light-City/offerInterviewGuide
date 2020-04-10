@@ -1,0 +1,1 @@
+/home/light/gcc8.3/bin/g++  -g   CMakeFiles/18.dir/17_18/18.cpp.o  -o 18 

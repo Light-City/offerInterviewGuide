@@ -1,0 +1,1 @@
+/home/light/gcc8.3/bin/g++  -g   CMakeFiles/05.dir/05_06/05.cpp.o  -o 05 

@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="offerInterviewGuide"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_I">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/10_I" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_I"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_I/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/10_I" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_I/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="15">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 15"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="15/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 15/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_II">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/10_II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_II"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_II/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/10_II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_II/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="14">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 14"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="14/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 14/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="13">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="13/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="18">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 18"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="18/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 18/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="14-II">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/14-II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 14-II"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="14-II/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/14-II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 14-II/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="16">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 16"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="16/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 16/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="17">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 17"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="17/fast">
+				<Option output="/home/light/myRoute/offerInterviewGuide/cmake-build-debug/17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/myRoute/offerInterviewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 17/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/myRoute/offerInterviewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/05_06/05.cpp">
+			<Option target="05"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/05_06/06.cpp">
+			<Option target="06"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/07_09/07.cpp">
+			<Option target="07"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/07_09/09.cpp">
+			<Option target="08"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/10I_10II/10_I.cpp">
+			<Option target="10_I"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/10I_10II/10_II.cpp">
+			<Option target="10_II"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/11_12/11.cpp">
+			<Option target="11"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/11_12/12.cpp">
+			<Option target="12"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/13_14/13.cpp">
+			<Option target="13"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/13_14/14-I.cpp">
+			<Option target="14"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/13_14/14-II.cpp">
+			<Option target="14-II"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/15_16/15.cpp">
+			<Option target="15"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/15_16/16.cpp">
+			<Option target="16"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/17_18/17.cpp">
+			<Option target="17"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/17_18/18.cpp">
+			<Option target="18"/>
+		</Unit>
+		<Unit filename="/home/light/myRoute/offerInterviewGuide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/home/light/gcc8.3/bin/g++  -g   CMakeFiles/08.dir/07_09/09.cpp.o  -o 08 

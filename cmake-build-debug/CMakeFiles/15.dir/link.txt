@@ -1,0 +1,1 @@
+/home/light/gcc8.3/bin/g++  -g   CMakeFiles/15.dir/15_16/15.cpp.o  -o 15 
